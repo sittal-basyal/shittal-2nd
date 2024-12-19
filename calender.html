@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .days,.date{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            gap: 2px;
+            border: 1px solid black;
+        }
+        .main{
+            width: 80%;
+            height: 70%;
+            align-items: center;
+            justify-content: center;
+        
+         
+        }
+        .a,.b,.sat,.holiday{
+            height: 70px;
+            border: 1px solid gray;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: larger;
+            font-weight: bold;
+
+        }
+        .holiday,.sat{
+            color: red;
+        }
+        figcaption{
+            opacity: 0;
+            
+        }.main:hover{
+             figcaption{
+                opacity: 1;
+             }
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="days" >
+        <div class="a">Sun</div>
+        <div class="a">Mon</div>
+        <div class="a">Tue</div>
+        <div class="a">Wed</div>
+        <div class="a">Thurs</div>
+        <div class="a">Fri</div>
+        <div class="sat">Sat</div>
+    </div>
+    <div class="date">
+    <div class="b"></div>
+    <div class="b">1</div>
+    <div class="b">2</div>
+    <div class="b">3</div>
+    <div class="b">4</div>
+    <div class="b">5</div>
+    <div class="sat">6</div>
+    <div class="b">7</div>
+    <div class="b">8</div>
+    <div class="b">9</div>
+    <div class="holiday">10</div>
+    <div class="b">11</div>
+    <div class="b">12</div>
+    <div class="sat">13</div>
+    <div class="b">14</div>
+    <div class="holiday">15</div>
+    <div class="b">16</div>
+    <div class="b">17</div>
+    <div class="b">18</div>
+    <div class="b">19</div>
+    <div class="sat">20</div>
+    <div class="b">21</div>
+    <div class="b">22</div>
+    <div class="b">23</div>
+    <div class="b">24</div>
+    <div class="b">25</div>
+    <div class="b">26</div>
+    <div class="sat">27</div>
+    <div class="b">28</div>
+    <div class="b">29</div>
+    <div class="b"></div>
+    <div class="b"></div>
+    <div class="b"></div>
+    <div class="b"></div>
+    <div class="b"></div>
+    
+   </div>
+   <figcaption>
+    This is image.
+   </figcaption>
+</div>
+</body>
+</html>
